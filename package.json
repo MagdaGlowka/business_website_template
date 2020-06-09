@@ -1,0 +1,17 @@
+{
+  "name": "projekt1",
+  "version": "1.0.0",
+  "description": "strona firmowa",
+  "scripts": {
+    "start": "lite-server"
+  },
+  "author": "Magdalena",
+  "license": "MIT",
+  "bugs": {
+    "url": "nn"
+  },
+  "homepage": "index.html",
+  "devDependencies": {
+    "lite-server": "^2.4.0"
+  }
+}
