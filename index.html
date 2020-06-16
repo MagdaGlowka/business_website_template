@@ -7,16 +7,17 @@
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/main.css">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> 
 </head>
 <body>
 <!-- NAVIGATION -->
   <nav> 
     <div class="container">
-      <a href="#" class="logo" >nazwa firmy</a>
+      <a href="#">nazwa firmy</a>
       <div class="nav-links">
        <a href="#about">o nas</a>
        <a href="#offer">oferta</a>
-       <a href="#contact" class="contact">kontakt</a>
+       <a href="#contact">kontakt</a>
       </div>
     </div>
   </nav>
@@ -32,7 +33,7 @@
       </div>
     </section>
 <!-- ABOUT  -->
-    <section class="about">
+    <section class="about" id="about">
       <div class="container">
         <h1>Nasi specjaliści</h1>
           <div class="about-employee">
@@ -47,7 +48,6 @@
               </p>
             </div>
           </div>
-
           <div class="about-employee">
             <div class="about-employee-pic">        
             </div>
@@ -62,30 +62,60 @@
       </div>  
     </section>
 <!-- OFFER -->
-    <section class="offer">
+    <section class="offer" id="offer">
       <div class="container">
         <h1>Czym zajmuje się nasza firma?</h1>
-        <div class="services-box-cnt">
-          <div class="box">Usługa 1 (nowość)</div>
-          <div class="box">Usługa 2</div>          
-          <div class="box">Usługa 3</div>          
-          <div class="box">Usługa 4</div>          
-          <div class="box">Usługa 5</div>          
-          <div class="box">Usługa 6</div>          
-          
+        
+        <div class="offer-boxes">
+            <div class="offer-boxes-item">
+              <div class="offer-boxes-item-cnt">
+                <div class="offer-boxes-item-dot"></div>
+              <h2>Usługa 1</h2>
+              <span>(nowość) </span>
+            </div>  
+          </div>
+          <div class="offer-boxes-item">
+            <div class="offer-boxes-item-cnt">
+              <h2>Usługa 2</h2>
+            </div>
+          </div>          
+          <div class="offer-boxes-item">
+            <div class="offer-boxes-item-cnt">
+              <h2>Usługa 3</h2>
+            </div> 
+          </div>         
+          <div class="offer-boxes-item">
+            <div class="offer-boxes-item-cnt">
+              <h2>Usługa 4</h2>
+            </div>
+          </div>          
+          <div class="offer-boxes-item">
+            <div class="offer-boxes-item-cnt">
+              <h2>Usługa 5</h2>
+            </div>
+          </div>          
+          <div class="offer-boxes-item">
+            <div class="offer-boxes-item-cnt">
+              <h2>Usługa 6</h2>
+            </div>
+          </div>          
         </div>
       </div>
     </section>
   </main>
-
+<!-- FOOTER -->
   <footer>
     <div class="container">
-      <a href="#rights" class="rights">Nazwa firmy - wszelkie prawa zastrzeżone, 2019</a>
-      <div>
-        <!-- <i class="fab fa-facebook-square"></i> -->
+      <div>Nazwa firmy - wszelkie prawa zastrzeżone, 2019</div>
+      <div class="footer-icons">  
+        <a href="https://www.instagram.com/">  
+          <i class="fa fa-2x fa-instagram"></i>
+        </a>
+        <a href="https://pl-pl.facebook.com/">  
+          <i class="fa fa-2x fa-facebook-square" ></i>
+        </a>
       </div>
     </div>
   </footer>
-    
 </body>
 </html>
