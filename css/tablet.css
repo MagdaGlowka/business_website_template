@@ -1,0 +1,75 @@
+@media (min-width: 768px) {
+  .container {
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  .about h1, .offer h1 {
+    margin-bottom: 70px;
+    font-size: 36px;
+    text-align: left;
+  }
+
+  .nav-links {
+    display: flex;
+    justify-content: space-between;
+    width: 26%;
+  }
+
+  .landing-page-shadow .container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  height: 28%;     
+  }
+
+  .landing-page h1, .landing-page p {
+    width: 70%;
+  }
+
+  .about-employee {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .about-employee:nth-of-type(even) {
+    flex-direction: row-reverse;
+  }
+
+  .about-employee:last-of-type {
+    margin-bottom: 0px;
+  }
+
+  .about-employee-pic {
+      margin-bottom: 0px;
+  }
+
+  .about-employee-desc {
+    width: calc(100% - 260px);
+    text-align: left;
+  }
+  
+  .about-employee:nth-of-type(even) .about-employee-desc {
+    text-align: right;
+  }
+  
+  footer {
+    font-size: 1em;
+  }
+
+  footer .container {
+    height: 71px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .footer-icons {
+    display: flex;
+    justify-content: space-between;
+    width: 11%;
+  }
+}
